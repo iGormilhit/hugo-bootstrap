@@ -6,3 +6,29 @@
 .blog-post img {
   max-width: 100%;
 }
+
+body {
+	min-height: 100vh
+}
+
+.footer {
+	height: 55px;
+	margin-top: 2rem;
+}
+
+.footer p {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.share a {
+	text-decoration: none;
+}
+
+.blog-post-date, .blog-post-translations {
+	display: inline-flex;
+}
+
+.blog-post-translations a {
+	padding-right: 4px;
+}

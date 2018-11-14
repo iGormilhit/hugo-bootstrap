@@ -1,0 +1,8 @@
+{{ if .IsTranslated }}
+<div class="blog-post-translations text-secondary">
+  {{ i18n "translations" }}:&nbsp; 
+    {{ range .Translations }}
+       <a href="{{ .RelPermalink }}">{{ .Lang }}</a>
+    {{ end }}
+  </div>
+{{ end }}
