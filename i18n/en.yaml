@@ -16,6 +16,9 @@
 - id: related
   translation: "See also"
 
+- id: share
+  translation: "Share this post"
+
 - id: recentPosts
   translation: "Recent Posts"
 
