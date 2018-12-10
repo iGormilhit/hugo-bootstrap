@@ -1,3 +1,7 @@
+.navbar-brand img {
+	max-width: 5rem;
+}
+
 .blog-header, .blog-post, .blog-pagination {
   margin-bottom: 2rem;
 }
@@ -25,10 +29,31 @@ body {
 	text-decoration: none;
 }
 
-.blog-post-date, .blog-post-translations {
-	display: inline-flex;
+.blog-post-date, .blog-post-translations, .blog-post-categories {
+	display: inline;
 }
 
 .blog-post-translations a {
 	padding-right: 4px;
+}
+
+/* figure */
+
+figure {
+	text-align: center;
+	margin: 0 0 1em;
+	padding: 1em 1em 0;
+	background-color: #f8f9fa;
+	border-radius: .4em;
+}
+
+figure img {
+	border-radius: .4em;
+}
+
+figure h4 {
+	text-align: center;
+	font-size: 90%;
+	color: gray;
+	padding: .5em 0;
 }

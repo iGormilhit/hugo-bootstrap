@@ -1,8 +1,7 @@
 {{ if .IsTranslated }}
 <div class="blog-post-translations text-secondary">
-  {{ i18n "translations" }}:&nbsp; 
     {{ range .Translations }}
-       <a href="{{ .RelPermalink }}">{{ .Lang }}</a>
+       <a class="badge badge-primary" href="{{ .RelPermalink }}"><i class="fas fa-language"></i> {{ .Lang }}</a>
     {{ end }}
   </div>
 {{ end }}
