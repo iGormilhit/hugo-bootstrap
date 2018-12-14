@@ -76,3 +76,15 @@ figure p {
 	color: gray;
 	padding: .5em 0;
 }
+
+.rero21-iframe {
+    width: 60%;
+    margin: 0 auto 1em auto;
+    border-radius: .4em;
+    background-color: #f8f9fa;
+}
+
+.rero21-iframe p {
+    text-align: center;
+    line-height: 1em;
+}
