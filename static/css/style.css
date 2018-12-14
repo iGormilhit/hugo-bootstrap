@@ -1,5 +1,11 @@
 a {
 	outline: none;		// TODO: provide a focus styling;
+    /* color: #289fcc; */
+    color: #105e9a;
+}
+
+.badge-primary {
+    background-color: #105e9a;
 }
 
 .navbar-brand img {
