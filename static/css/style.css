@@ -1,3 +1,7 @@
+a {
+	outline: none;		// TODO: provide a focus styling;
+}
+
 .navbar-brand img {
 	max-width: 5rem;
 }
@@ -37,6 +41,15 @@ body {
 	padding-right: 4px;
 }
 
+.blog-post header,
+.blog-main header {
+	margin-bottom: 1em;
+}
+.blog-post header h2,
+.blog-main header h2 {
+	margin-bottom: 0;
+}
+
 /* figure */
 
 figure {
@@ -51,7 +64,7 @@ figure img {
 	border-radius: .4em;
 }
 
-figure h4 {
+figure p {
 	text-align: center;
 	font-size: 90%;
 	color: gray;
